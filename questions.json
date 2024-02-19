@@ -23,6 +23,380 @@
     },
     {
         "category": "easy",
+        "question": "What is the size of int?",
+        "answers": [
+        {
+            "answer_text": "4 bytes",
+            "correct": true
+        },
+        {
+            "answer_text": "2 bytes",
+            "correct": false
+        },
+        {
+            "answer_text": "1 byte",
+            "correct": false
+        },
+        {
+            "answer_text": "4 bits",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "What is forward referencing with respect to pointers?",
+        "answers": [
+        {
+            "answer_text": "Compiler reserves memory before variable is defined",
+            "correct": true
+        },
+        {
+            "answer_text": "Undefined behavior",
+            "correct": false
+        },
+        {
+            "answer_text": "Memory reserved after pointer declaration",
+            "correct": false
+        },
+        {
+            "answer_text": "Compiler error",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "What is static linking?",
+        "answers": [
+        {
+            "answer_text": "Linker copies library routines into executable",
+            "correct": true
+        },
+        {
+            "answer_text": "Linking libraries at runtime",
+            "correct": false
+        },
+        {
+            "answer_text": "Dynamic linking",
+            "correct": false
+        },
+        {
+            "answer_text": "Compiling source code",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "easy",
+        "question": "How do you make an infinite loop?",
+        "answers": [
+        {
+            "answer_text": "while(1)",
+            "correct": true
+        },
+        {
+            "answer_text": "for(;;)",
+            "correct": false
+        },
+        {
+            "answer_text": "if(true)",
+            "correct": false
+        },
+        {
+            "answer_text": "do-while(1)",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "Who decides the size of data types?",
+        "answers": [
+        {
+            "answer_text": "Compiler, with potential OS influence",
+            "correct": true
+        },
+        {
+            "answer_text": "The operating system",
+            "correct": false
+        },
+        {
+            "answer_text": "Hardware manufacturer",
+            "correct": false
+        },
+        {
+            "answer_text": "The programmer",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "What is dynamic linking?",
+        "answers": [
+        {
+            "answer_text": "Library names in executable, linking at runtime",
+            "correct": true
+        },
+        {
+            "answer_text": "Linking libraries at compile time",
+            "correct": false
+        },
+        {
+            "answer_text": "Static linking",
+            "correct": false
+        },
+        {
+            "answer_text": "Compiling source code",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "easy",
+        "question": "What is a wild pointer in C?",
+        "answers": [
+        {
+            "answer_text": "Uninitialized, pointing to arbitrary memory",
+            "correct": true
+        },
+        {
+            "answer_text": "Pointer to a function",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to a void",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to an array",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "What is a near pointer?",
+        "answers": [
+        {
+            "answer_text": "Limited to 16-bit segment, 2 bytes",
+            "correct": true
+        },
+        {
+            "answer_text": "Pointer pointing nearby",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to nearby variables",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer with short range",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "What is a far pointer?",
+        "answers": [
+        {
+            "answer_text": "Uses two 16-bit registers, 4 bytes",
+            "correct": true
+        },
+        {
+            "answer_text": "Pointer pointing faraway memory",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer with long range",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to a faraway variable",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "easy",
+        "question": "What is a dangling pointer?",
+        "answers": [
+        {
+            "answer_text": "Points to freed or deallocated memory",
+            "correct": true
+        },
+        {
+            "answer_text": "Pointer dangling from a structure",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to dangling objects",
+            "correct": false
+        },
+        {
+            "answer_text": "Pointer to a function",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "When and where do you use register storage class?",
+        "answers": [
+        {
+            "answer_text": "Local variables for faster access, potentially stored in CPU register",
+            "correct": true
+        },
+        {
+            "answer_text": "For global variables only",
+            "correct": false
+        },
+        {
+            "answer_text": "For variables stored in RAM",
+            "correct": false
+        },
+        {
+            "answer_text": "For variables with slow access requirements",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "What are the differences between malloc and calloc?",
+        "answers": [
+        {
+            "answer_text": "malloc() allocates single block, calloc() initializes to 0",
+            "correct": true
+        },
+        {
+            "answer_text": "malloc() initializes memory to zero",
+            "correct": false
+        },
+        {
+            "answer_text": "calloc() is faster than malloc()",
+            "correct": false
+        },
+        {
+            "answer_text": "malloc() can allocate multiple blocks of memory",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "When do you use realloc()?",
+        "answers": [
+        {
+            "answer_text": "To reallocate memory when initial allocation is insufficient",
+            "correct": true
+        },
+        {
+            "answer_text": "To allocate memory for a new variable",
+            "correct": false
+        },
+        {
+            "answer_text": "To deallocate memory",
+            "correct": false
+        },
+        {
+            "answer_text": "To initialize memory to zero",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "easy",
+        "question": "How to use free() in embedded C environment?",
+        "answers": [
+        {
+            "answer_text": "Free memory after usage to prevent leaks",
+            "correct": true
+        },
+        {
+            "answer_text": "free(pointer)",
+            "correct": false
+        },
+        {
+            "answer_text": "free(pointer);",
+            "correct": false
+        },
+        {
+            "answer_text": "delete(pointer)",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "Can we define our own header file with Embedded C?",
+        "answers": [
+        {
+            "answer_text": "Yes",
+            "correct": true
+        },
+        {
+            "answer_text": "No",
+            "correct": false
+        },
+        {
+            "answer_text": "Only with special permissions",
+            "correct": false
+        },
+        {
+            "answer_text": "Depends on the compiler",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "medium",
+        "question": "What are common ways to raise a segmentation fault?",
+        "answers": [
+        {
+            "answer_text": "Dereferenced pointer, accessing read-only memory, accessing a dangling pointer",
+            "correct": true
+        },
+        {
+            "answer_text": "When a pointer is initialized",
+            "correct": false
+        },
+        {
+            "answer_text": "When a pointer is declared",
+            "correct": false
+        },
+        {
+            "answer_text": "When memory is deallocated",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "hard",
+        "question": "What is stack overflow?",
+        "answers": [
+        {
+            "answer_text": "Using more memory than available, resulting in a crash",
+            "correct": true
+        },
+        {
+            "answer_text": "Invalid stack pointer",
+            "correct": false
+        },
+        {
+            "answer_text": "Function returns without popping local variables",
+            "correct": false
+        },
+        {
+            "answer_text": "Deallocating memory from the stack",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "category": "easy",
         "question": "What is the size of float?",
         "answers": [
             {
@@ -110,971 +484,487 @@
         ]
     },
     {
-        "category": "",
-        "question": "",
+        "category": "easy",
+        "question": "Size of pointer? Int pointer, float pointer, char pointer?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Pointer size varies with architecture",
+            "correct": true
+          },
+          {
+            "answer_text": "All pointers are the same size",
+            "correct": false
+          },
+          {
+            "answer_text": "8 bytes",
+            "correct": false
+          },
+          {
+            "answer_text": "16 bytes",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is a pointer?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "A variable holding an address",
+            "correct": true
+          },
+          {
+            "answer_text": "A variable holding a value",
+            "correct": false
+          },
+          {
+            "answer_text": "A variable holding a function",
+            "correct": false
+          },
+          {
+            "answer_text": "A variable holding a string",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is a NULL pointer?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "A special pointer that points nowhere",
+            "correct": true
+          },
+          {
+            "answer_text": "A pointer that points to address 0",
+            "correct": false
+          },
+          {
+            "answer_text": "A pointer that points to address 1",
+            "correct": false
+          },
+          {
+            "answer_text": "A pointer that points to a function",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is a void pointer?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Can hold/point to any data type",
+            "correct": true
+          },
+          {
+            "answer_text": "Points to nothing",
+            "correct": false
+          },
+          {
+            "answer_text": "Points to a function",
+            "correct": false
+          },
+          {
+            "answer_text": "Points to a specific data type",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is an ISR?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Interrupt Service Routine",
+            "correct": true
+          },
+          {
+            "answer_text": "Internal System Reboot",
+            "correct": false
+          },
+          {
+            "answer_text": "Interrupt Signal Relay",
+            "correct": false
+          },
+          {
+            "answer_text": "Internal System Restart",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is the return type of ISR?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "ISR does not return anything",
+            "correct": true
+          },
+          {
+            "answer_text": "Void",
+            "correct": false
+          },
+          {
+            "answer_text": "int",
+            "correct": false
+          },
+          {
+            "answer_text": "bool",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is latency?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Delay",
+            "correct": true
+          },
+          {
+            "answer_text": "Speed",
+            "correct": false
+          },
+          {
+            "answer_text": "Memory usage",
+            "correct": false
+          },
+          {
+            "answer_text": "Size",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "How do we reduce latency during ISR call?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Write efficient and small ISRs",
+            "correct": true
+          },
+          {
+            "answer_text": "Increase loops",
+            "correct": false
+          },
+          {
+            "answer_text": "Disable interrupts",
+            "correct": false
+          },
+          {
+            "answer_text": "Use high latency instructions",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is volatile keyword?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Informs compiler not to optimize the variable",
+            "correct": true
+          },
+          {
+            "answer_text": "Indicates constant value",
+            "correct": false
+          },
+          {
+            "answer_text": "Forces optimization",
+            "correct": false
+          },
+          {
+            "answer_text": "Indicates a static value",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "When can we use volatile?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Using registers\nWhen a global variable is shared/accessed by multiple threads/tasks",
+            "correct": true
+          },
+          {
+            "answer_text": "For local variables",
+            "correct": false
+          },
+          {
+            "answer_text": "For constant variables",
+            "correct": false
+          },
+          {
+            "answer_text": "For static variables",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "Difference between const and volatile?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Const: Compiler controlled, value never changed\nVolatile: Not optimized, value can change unexpectedly",
+            "correct": true
+          },
+          {
+            "answer_text": "Const: Not optimized, value can change\nVolatile: Compiler controlled, value never changed",
+            "correct": false
+          },
+          {
+            "answer_text": "Const: Value can change unexpectedly\nVolatile: Compiler controlled, value never changed",
+            "correct": false
+          },
+          {
+            "answer_text": "Const: Compiler controlled, value never changed\nVolatile: Value can change unexpectedly",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "Is it legal to make a pointer volatile?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Yes",
+            "correct": true
+          },
+          {
+            "answer_text": "No",
+            "correct": false
+          },
+          {
+            "answer_text": "Depends on compiler",
+            "correct": false
+          },
+          {
+            "answer_text": "Only with special permissions",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "Good to use printf() inside ISR?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Not advisable\nNot reentrant\nNot thread-safe\nUses dynamic memory allocation",
+            "correct": true
+          },
+          {
+            "answer_text": "Advisable",
+            "correct": false
+          },
+          {
+            "answer_text": "Mandatory",
+            "correct": false
+          },
+          {
+            "answer_text": "Optional",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "Is it acceptable to use a breakpoint in an ISR?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Legal and acceptable, but not a great idea\nSlows down ISR, compromising real-time performance",
+            "correct": true
+          },
+          {
+            "answer_text": "Illegal",
+            "correct": false
+          },
+          {
+            "answer_text": "Acceptable and advisable",
+            "correct": false
+          },
+          {
+            "answer_text": "Optional",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is nested interrupt?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "When multiple interrupts are raised, the highest priority one will be respected",
+            "correct": true
+          },
+          {
+            "answer_text": "When a single interrupt is raised multiple times",
+            "correct": false
+          },
+          {
+            "answer_text": "When an interrupt is raised within another interrupt",
+            "correct": false
+          },
+          {
+            "answer_text": "When interrupts are disabled",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is RTOS?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Real-time operating system\nLogical correctness within deterministic deadline\nOS supporting real-time functionality",
+            "correct": true
+          },
+          {
+            "answer_text": "Regular Time Operating System",
+            "correct": false
+          },
+          {
+            "answer_text": "Random Time Operating System",
+            "correct": false
+          },
+          {
+            "answer_text": "Rapid Time Operating System",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is an inline function?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Supported by default in C++\nSubstitutes function body on call\nReduces total time for function call\nCode gets bigger",
+            "correct": true
+          },
+          {
+            "answer_text": "Function on a single line",
+            "correct": false
+          },
+          {
+            "answer_text": "Function declared in header file",
+            "correct": false
+          },
+          {
+            "answer_text": "Function declared outside main function",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is static?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Static variables may be local to a scope, or external to all scopes\nRetains values across function and scope exit\nLocal statics remain even after program exits local scope\nGlobal statics remain throughout file",
+            "correct": true
+          },
+          {
+            "answer_text": "Dynamic variables",
+            "correct": false
+          },
+          {
+            "answer_text": "Global variables",
+            "correct": false
+          },
+          {
+            "answer_text": "Local variables",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is priority inversion?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Higher-priority task preempted by lower-priority task",
+            "correct": true
+          },
+          {
+            "answer_text": "Lower-priority task preempted by higher-priority task",
+            "correct": false
+          },
+          {
+            "answer_text": "Tasks have equal priority",
+            "correct": false
+          },
+          {
+            "answer_text": "No task preempted",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What are commonly used IPC mechanisms?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Pipes\nNamed pipes or FIFO\nSemaphores\nShared memory\nMessage queue\nSocket",
+            "correct": true
+          },
+          {
+            "answer_text": "Variables",
+            "correct": false
+          },
+          {
+            "answer_text": "Loops",
+            "correct": false
+          },
+          {
+            "answer_text": "Arrays",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is a semaphore? Binary/counting semaphore?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Variable controlling access to a resource\nBinary semaphore has 2 states\nCounting semaphore deals with large set of values",
+            "correct": true
+          },
+          {
+            "answer_text": "Type of data structure",
+            "correct": false
+          },
+          {
+            "answer_text": "Type of loop",
+            "correct": false
+          },
+          {
+            "answer_text": "Type of variable",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
+      },
+      {
+        "category": "easy",
+        "question": "What is the use of ## operator?",
         "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
+          {
+            "answer_text": "Token pasting / concatenation",
+            "correct": true
+          },
+          {
+            "answer_text": "Pointer dereferencing",
+            "correct": false
+          },
+          {
+            "answer_text": "Pointer arithmetic",
+            "correct": false
+          },
+          {
+            "answer_text": "Logical OR operation",
+            "correct": false
+          }
         ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    },
-    {
-        "category": "",
-        "question": "",
-        "answers": [
-            {
-                "answer_text": "",
-                "correct": true
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            },
-            {
-                "answer_text": "",
-                "correct": false
-            }
-        ]
-    }
+      }
 ]
